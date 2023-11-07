@@ -1,0 +1,105 @@
+.x-posts-sec{
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+    width: 600px;
+    height: 100vh;
+    
+}
+.x-posts-sec-nav{
+    width: 599px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.652);
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-size: 1.5rem;
+    & div:first-of-type{
+        font-family: 'chirpB';
+        color: #e7e9ea;
+        width: 267px;   
+          border: none;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    transition: background-color 0.15s;
+
+          &:hover{
+            background-color: var(--grayhover);
+            cursor: pointer;
+        }
+    }
+    & div:nth-of-type(2){
+        font-family: 'chirpM';
+        color: var(--gray);
+        width: 278px;   
+          border: none;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    transition: background-color 0.15s;
+
+          &:hover{
+            background-color: var(--grayhover);
+            cursor: pointer;
+        }
+    }
+
+
+    & div:nth-of-type(3){
+          border: none;
+          height: 100%;
+          width: calc(600px - (267px + 278px));
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          & .tooltip-settings-box{
+            transition: background-color 0.15s ;
+            position: relative;
+            width: 35px;
+                 height: 35px;
+                 border: none;
+                 border-radius: 50%;
+                 &:hover .tooltip-timeline{
+                    pointer-events: none;
+                   opacity: 1;
+
+                    }
+          }
+          
+          & img{
+            width: 20px;
+            }
+          & .round-settings{
+                 width: 35px;
+                 height: 35px;
+                 border: none;
+                 border-radius: 50%;
+                 /* display: flex;
+                 flex-direction: column; */
+                 &:hover{
+                    background-color: var(--grayhover);
+                    cursor: pointer;
+
+                    }
+                 }
+             
+             & .tooltip-timeline{
+                      background-color: rgb(71, 88, 98);
+                      font-size: 1.1rem;
+                      width: 100px;
+                      height: 20px;
+                      bottom: -70%;
+                      font-family: 'chirpR';
+                      border-radius: 3px;
+                      position: absolute;
+                      opacity: 0;
+                      color: #e7e9ea;
+                      transition: opacity 0.15s 0.5s;
+                      pointer-events: none;
+                  }         
+          }
+        }

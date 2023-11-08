@@ -6,7 +6,7 @@
     
 }
 .x-posts-sec-nav{
-    width: 599px;
+    width: 599  px;
     height: 55px;
     background-color: rgba(0, 0, 0, 0.652);
     border-bottom: 1px solid #333;
@@ -15,7 +15,7 @@
     align-items: center;
     position: fixed;
     font-size: 1.5rem;
-    & div:first-of-type{
+    & div:nth-of-type(1){
         font-family: 'chirpB';
         color: #e7e9ea;
         width: 267px;   
@@ -24,13 +24,24 @@
           display: flex;
           align-items: center;
           justify-content: center;
-    transition: background-color 0.15s;
+          transition: background-color 0.15s;
+          position: relative;
 
           &:hover{
             background-color: var(--grayhover);
             cursor: pointer;
         }
-    }
+      }
+      & .forme::before{
+        content: "";
+        width: 55px;
+        height: 4px;
+        border-radius: 100px;
+        background-color: var(--blue-dark);
+        position: absolute;
+        bottom: -0.01%;
+        margin-bottom: 1px;
+      }
     & div:nth-of-type(2){
         font-family: 'chirpM';
         color: var(--gray);

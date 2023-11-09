@@ -3,10 +3,11 @@
     border-left: 1px solid #333;
     width: 600px;
     height: 100vh;
+    padding-top: 55px;
     
 }
 .x-posts-sec-nav{
-    width: 599  px;
+    width: 599px;
     height: 55px;
     background-color: rgba(0, 0, 0, 0.652);
     border-bottom: 1px solid #333;
@@ -14,6 +15,7 @@
     display: flex;
     align-items: center;
     position: fixed;
+    top: 0;
     font-size: 1.5rem;
     & div:nth-of-type(1){
         font-family: 'chirpB';
@@ -114,3 +116,91 @@
                   }         
           }
         }
+.x-posting{
+  border-bottom: 2px solid #333;
+  width: 599px;
+  height: 120px;
+  display: flex;
+  gap: 13px;
+  padding-top: 4px;
+  
+}
+
+.profile-post{
+  margin-top:11px ;
+  padding-left: 15px;
+  /* vertical-align: middle; */
+  & img{
+    width: 40px;
+         height: 40px;
+         border: none;
+         border-radius: 50%;
+
+         
+  }
+}
+.input-reply{
+  
+  /* border: 1px solid red; */
+    height: 58px;
+    & .input{
+      margin-top:18px ;
+    }
+  & input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'chirpR';
+    font-size: 2rem;
+    outline: none;
+    
+  }
+  & input::placeholder{
+    color:#cdcecf;
+  }
+}
+/* .action{
+  border:none;
+  border-radius: 100px;
+  width: fit-content;
+  padding: 3px 12px;
+  margin-top: 15px;
+  margin-left: -8px;
+  transition: background-color 0.15s;
+  display: flex;
+  gap: 3px;
+  & img{
+    width: 16px;
+  }
+  & .whocan{
+    font-family: 'chirpB';
+    color:var(--blue-dark);
+    font-size: 1.4rem;
+    position: relative;
+  }
+  & .whocan::before{
+    content: "";
+    pointer-events: none;
+      height: 0.8px;
+      position: absolute;
+      background-color: #333;
+      left:-25%;
+      width: 515px;
+      bottom: -80%;
+    }
+    &:hover{
+      background-color: #0b66a332;
+      cursor: pointer;
+    }
+  } */
+
+.icon-post{
+  display: flex;
+}
+.icons{
+  display: flex;
+  gap: 15px;
+}
+.icons img{
+  width: 20px;
+}

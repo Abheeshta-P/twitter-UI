@@ -1,12 +1,12 @@
-  /*.container {
+  .container {
     
     /*width: 100%;*/
     /* padding-left: 9.5rem;
     padding-right: 9.5rem; */
     /* display: grid;
     grid-template-columns: 1fr 500px 1fr; */
-    /* display: flex;
-    flex-direction: column; 
+     display: flex;
+    /* flex-direction: column;  */
 }  
 /* @media (max-width:1268px){
     .container{

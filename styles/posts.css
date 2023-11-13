@@ -2,15 +2,16 @@ section {
   border-right: 1px solid #333;
   border-left: 1px solid #333;
   width: 600px;
-  height: 100%;
+  height: 2000%;
   padding-top: 55px;
-
+  padding-bottom: 800px;
 }
 
 .x-posts-sec-nav {
   width: 599px;
   height: 55px;
-  background-color: rgba(0, 0, 0, 0.881);
+  background: rgba(0, 0, 0, 0.594);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid #333;
   border-right: 1px solid #333;
   display: flex;
@@ -30,13 +31,13 @@ section {
     justify-content: center;
     transition: background-color 0.15s;
     position: relative;
-
+    
     &:hover {
       background-color: var(--grayhover);
       cursor: pointer;
     }
   }
-
+  
   & .forme::before {
     content: "";
     width: 55px;
@@ -47,7 +48,7 @@ section {
     bottom: -0.01%;
     margin-bottom: 1px;
   }
-
+  
   & div:nth-of-type(2) {
     font-family: 'chirpM';
     color: var(--gray);
@@ -58,14 +59,14 @@ section {
     align-items: center;
     justify-content: center;
     transition: background-color 0.15s;
-
+    
     &:hover {
       background-color: var(--grayhover);
       cursor: pointer;
     }
   }
-
-
+  
+  
   & div:nth-of-type(3) {
     border: none;
     height: 100%;
@@ -73,7 +74,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     & .tooltip-settings-box {
       transition: background-color 0.15s;
       position: relative;
@@ -81,34 +82,34 @@ section {
       height: 35px;
       border: none;
       border-radius: 50%;
-
+      
       &:hover .tooltip-timeline {
         pointer-events: none;
         opacity: 1;
-
+        
       }
     }
-
+    
     & img {
       width: 20px;
     }
-
+    
     & .round-settings {
       width: 35px;
       height: 35px;
       border: none;
       border-radius: 50%;
       /* display: flex;
-                 flex-direction: column; */
+      flex-direction: column; */
       transition: background-color 0.15s;
-
+      
       &:hover {
         background-color: var(--grayhover);
         cursor: pointer;
-
+        
       }
     }
-
+    
     & .tooltip-timeline {
       background-color: rgb(71, 88, 98);
       font-size: 1.1rem;
@@ -133,21 +134,21 @@ section {
   display: flex;
   gap: 13px;
   padding-top: 4px;
-
+  
 }
 
 .profile-post {
   margin-top: 11px;
   padding-left: 16px;
-
+  
   /* vertical-align: middle; */
   & img {
     width: 40px;
     height: 40px;
     border: none;
     border-radius: 50%;
-
-
+    
+    
   }
 }
 
@@ -668,7 +669,7 @@ svg{
   margin-top: 10px;
   & img{
     width: 100%;
-
+    height: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
@@ -686,5 +687,69 @@ svg{
 .commu-info{
   background-image: linear-gradient(rgb(38, 51, 64) 5px, rgb(15, 20, 25) 5px, rgb(15, 20, 25) 100%);
   height: 135px;
-  z-index: 500;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px 15px;
+  & p{
+    font-family: 'chirpB';
+    font-size: 2.1rem;
+  
+  }
+  & button{
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'chirpB';
+    font-size: 1.6rem;
+    background-color: #e7e9ea;
+    cursor: pointer;
+    transition: background-color 0.15s,opacity 0.15s;
+    color: #141313;
+    &:hover{
+      background-color: #d2d2d2f4;
+    }
+    &:active{
+      opacity: 0.9;
+    }
+}
+}
+.members {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  & img:first-of-type{
+    margin-left: 0;
+    z-index: 6;
+  }
+ & img:nth-of-type(2){
+    z-index: 5;
+  }
+ & img:nth-of-type(3){
+   
+    z-index: 4;
+  }
+ & img:nth-of-type(4){
+   
+    z-index: 3;
+  }
+  & img:nth-of-type(5){
+   
+    z-index: 2;
+  }
+& img{
+  margin-left: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid black;
+}
+& p{
+  font-family: 'chirpR';
+  font-size: 1.5rem;
+  margin-left: 6px;
+}
+
 }

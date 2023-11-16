@@ -1,0 +1,189 @@
+aside{
+    margin-left: 30px;
+    width: 100%;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.search-bar{
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.search{
+    margin-right: 100px;
+    width: 350px;
+    padding: 12px 19px;
+    background-color: #202327;
+  
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    &:focus-within{
+        outline: 1px solid var(--blue-dark);
+        background-color: black;
+        & svg{
+            fill: var(--blue-dark);
+        }
+    }
+    & svg{
+        width: 19px;
+        height: 19px;
+    }
+    & input{
+        background-color: transparent;
+        border: none;
+        color: var(--username);
+        outline: none;
+        font-size: 1.5rem;
+        font-family: 'chirpR';
+        font-weight: 400;
+        &::placeholder{
+            color: rgb(169, 168, 168);
+        }
+    }
+
+    
+}
+.premium-text{
+    color: var(--username);
+    width: 100%;
+    background-color: var(--asidebg);
+    margin-top: 15px;
+    padding: 13px 15px 13px 17px;
+    border-radius: 15px;
+    & #p-pre{
+        font-family: 'chirpB';
+        font-size: 1.5rem;
+        margin-bottom: 11px;
+        line-height: 20px;
+    }
+    & button {
+        background-color: var(--blue-dark);
+        border: none;
+        border-radius: 100px;
+        color: white;
+        font-family: 'chirpB';
+        padding: 9px 17px;
+        font-size: 1.5rem;
+    
+        transition: background-color 0.15s opacity 0.15s;
+    
+      }
+    
+      & button:hover {
+        cursor: pointer;
+        background-color: var(--blue-darkhover);
+      }
+      & button:active {
+        opacity: 0.8;
+      }
+    }
+
+.h-pre{
+        font-family: 'chirpH';
+        font-size: 2rem ;
+        margin-bottom: 11px;
+    }
+.tags-sec{
+    color: var(--username);
+    width: 100%;
+    height: fit-content;
+    background-color: var(--asidebg);
+    border-radius: 15px;
+    margin-top: 15px;
+    position: sticky;
+    top: 4%;
+}
+.hash-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 15px 10px 17px;
+    transition: background-color 0.15s;
+    &:hover{
+        background-color: #6e727619;
+        cursor: pointer;
+    }}
+     .seemore{
+        height: 55px;
+        display: flex;
+        align-items: center;
+        font-family: 'chirpR';
+        width: 100%;
+         padding: 10px 15px 10px 17px;
+         transition: background-color 0.15s;
+    &:hover{
+        background-color: #6e727619;
+        cursor: pointer;
+    }
+    & span{
+        font-size: 1.5rem;
+    }
+    }
+
+.h-tag{
+    padding: 15px 15px 0 17px;
+    margin-bottom: 15px;
+}
+.topic-dot{
+    color: #6e7276;
+    font-family: 'chirpR';
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+.hashtag{
+    font-family: 'chirpB';
+    font-size: 1.6rem;
+  }
+.hash-post{
+    color: #6e7276;
+    font-family: 'chirpR';
+    font-size: 1.3rem;
+    margin-top: 5px;
+    & span{
+        font-size: 1.2rem;
+    }
+}
+.extras{
+    position: sticky;
+    top: 82%;
+    margin-top: 20px;
+        width: 100%;
+        display: flex;
+        gap: 13px;
+        flex-wrap: wrap;
+        padding-left: 15px;
+            & :is(span,a){
+            font-size: 1.3rem;
+            color:var(--gray);
+            font-family: 'chirpR';
+            text-decoration: none;
+            line-height: 8px;
+        }
+        & a:hover{
+            text-decoration: underline;
+        }
+}
+.more-dot{
+    display: flex;
+    gap: 1px;
+&:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+   & img{
+    width: 17px;
+    height: 13px;
+   }
+}
+

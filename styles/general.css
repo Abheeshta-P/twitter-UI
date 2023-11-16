@@ -1,5 +1,9 @@
 
 @font-face {
+    font-family: 'chirpH';
+    src: url(../fonts/Chirp-Heavy.f44ae4ea.woff2);
+}
+@font-face {
     font-family: 'chirpB';
     src: url(../fonts/Chirp-Bold.ebb56aba.woff2);
 }
@@ -33,5 +37,5 @@ html{
     --gray:#7b7d7f;
     --grayhover:#212222b6;
     --username:#e7e9ea;
-    
+    --asidebg:#16181c;
 }

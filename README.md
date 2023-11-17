@@ -1,6 +1,6 @@
 <h1 align="center">"  Twitter web page clone "</h1>
 
-This is a simple web page that mimics the appearance and functionality of Twitter using only HTML and CSS. It does not have any back-end or interactivity, but it shows how the Twitter interface looks like on different devices and screen sizes.
+This is a simple web page that mimics the appearance and functionality of Twitter using only HTML and CSS. It does not have any back-end or interactivity, but it shows how the Twitter interface looks like on desktop.
 
 ## Features
 

@@ -5,7 +5,7 @@ This is a simple web page that mimics the appearance and functionality of Twitte
 ## Features
 
 - Twitter logo and colors to make the web page look authentic
-- Dummy tweets, users, and hashtags to show how the Twitter feed looks like
+- tweets, users, and hashtags to show how the Twitter feed looks like
 - Profile page that shows user information and tweets
 - Search bar that lets users search for tweets, users, or hashtags
 

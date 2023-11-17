@@ -579,7 +579,7 @@ svg{
       background-color: #e7e9ea;
       cursor: pointer;
       transition: background-color 0.15s,opacity 0.15s;
-      color: #373636;
+      color: #111111;
       &:hover{
         background-color: #e7e9eaf4;
       }
@@ -681,6 +681,18 @@ svg{
 .post2{
   bottom: -680%;
 }
+.post5{
+  bottom: -650%;
+}
+.post7{
+  bottom: -730%;
+}
+.post8{
+  bottom: -550%;
+}
+.post9{
+  bottom: -700%;
+}
 .image-box{
   width: 100%;
   height: 200px;
@@ -753,4 +765,16 @@ svg{
   margin-left: 6px;
 }
 
+}
+.post-image{
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  height: 291px;
+    border: 1px solid #333;
+  & img{
+    width: 100%;
+    border-radius: 15px;
+    
+  }
 }

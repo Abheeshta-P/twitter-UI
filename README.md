@@ -1,4 +1,4 @@
-<h1 align="center">"  Twitter web page clone "</h1>
+<h1 align="center">  Twitter UI clone </h1>
 
 This is a simple web page that mimics the appearance and functionality of Twitter using only HTML and CSS. It does not have any back-end or interactivity, but it shows how the Twitter interface looks like on desktop.
 
@@ -22,6 +22,6 @@ To run this project locally, you need to have a web browser that supports HTML a
 - Open the `index.html` file in your web browser
 - Enjoy the Twitter page! 😊
 
-Live here : [twitterui-abheeshta](https://twitteruiclone.netlify.app/)
+Live here : [twitterui-abheeshta](https://abheeshta-p.github.io/twitter-page/)
 
 ###### Works in desktop not mobile responsive

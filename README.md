@@ -22,6 +22,6 @@ To run this project locally, you need to have a web browser that supports HTML a
 - Open the `index.html` file in your web browser
 - Enjoy the Twitter page! 😊
 
-Live here : [twitterui-abheeshta](https://abheeshta-p.github.io/twitter-page/)
+Live here : [twitterui-abheeshta](https://abheeshta-p.github.io/twitter-UI/)
 
 ###### Works in desktop not mobile responsive
